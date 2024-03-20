@@ -34,4 +34,9 @@ class Strength(Statistic):
         super().__init__(value)
         self.description = "Strength is a measure of physical power."
 
+class Intelligence(Statistic):
+
+    def __init__(self, value):
+        super().__init__(value)
+        self.description = "Intelligence indicates how quickly one can deduce solutions for problems."
 # and so on for the other statistics
